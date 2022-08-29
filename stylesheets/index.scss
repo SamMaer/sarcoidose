@@ -1,0 +1,35 @@
+// sass --watch stylesheets/index.scss CSS/index.css
+// om scss automatisch om te zetten naar CSS
+// SCSS laat ons toe zaken te laten overerven en met variabelen te werken
+
+.navbar {
+    .title {
+        font-size: 2rem;
+    }
+
+    .nav-item {
+        font-size: 1.3rem;
+    }
+    
+}
+.subtitle {
+    font-size: 1.3rem;
+}
+
+
+
+@media all and (max-device-width: 720px){
+    .navbar {
+        .title {
+            font-size: 1rem;
+            margin: 1rem;
+        }
+    
+        .nav-item {
+            font-size: 1rem;
+        }
+    }
+    .subtitle {
+        font-size: 1rem;
+    }
+}

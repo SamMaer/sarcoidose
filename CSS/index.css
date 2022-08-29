@@ -1,0 +1,25 @@
+.navbar .title {
+  font-size: 2rem;
+}
+.navbar .nav-item {
+  font-size: 1.3rem;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+}
+
+@media all and (max-device-width: 720px) {
+  .navbar .title {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+  .navbar .nav-item {
+    font-size: 1rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
